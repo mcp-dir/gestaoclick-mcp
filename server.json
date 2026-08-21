@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/gestaoclick-mcp",
+  "title": "GestãoClick",
+  "description": "GestãoClick ERP (business management for SMBs) via the official API: customers, suppliers, products ",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/gestaoclick-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_gestaoclick"
+    }
+  ]
+}
